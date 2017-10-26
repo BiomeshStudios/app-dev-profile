@@ -54,14 +54,38 @@
 		C016B7BD1FA1BA6B00244D79 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				C016B7D01FA1BCBA00244D79 /* Model */,
+				C016B7D11FA1BEFC00244D79 /* View */,
+				C016B7D21FA1BF0300244D79 /* Controller */,
 				C016B7BE1FA1BA6B00244D79 /* AppDelegate.swift */,
-				C016B7C01FA1BA6B00244D79 /* ViewController.swift */,
 				C016B7C21FA1BA6B00244D79 /* Main.storyboard */,
 				C016B7C51FA1BA6B00244D79 /* Assets.xcassets */,
 				C016B7C71FA1BA6B00244D79 /* LaunchScreen.storyboard */,
 				C016B7CA1FA1BA6B00244D79 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		C016B7D01FA1BCBA00244D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C016B7D11FA1BEFC00244D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C016B7D21FA1BF0300244D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C016B7C01FA1BA6B00244D79 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
